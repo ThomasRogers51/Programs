@@ -1,3 +1,31 @@
+/*  Develop a Java application that plays a "guess the number" game as described below. 
+a) The user interface is displayed and the user clicks the “Start Game” button to begin the game. 
+
+b) Your application then gets a random number in the range 1-1000 inclusive (you might want to use Math.random or the Random 
+class). 
+
+c) The application then displays the following prompt (probably via a JLabel): I have a number between 1 and 1000 can you 
+guess my number? Please enter a number for your first guess and then hit Enter. Post a textbox for the user to enter a number 
+and post a message telling the user to hit 'Enter' after entering a guess in a textbox (probably using a JTextField). 
+
+d) Input the user's guess in the code for a previously-registered event-handler method (consider using the event-handling 
+approach discussed in the text, or the actionPerformed method of class based on the ActionListener interface, which will 
+require some additional research outside the text). 
+
+e) For the first guess color the entire background red, meaning that they are getting warmer (you might want to use the 
+setBackground method for a container). If this is the second or later guess, and they are further from the correct number 
+than the last guess, then color the entire background blue. If they get the correct number then color the background some 
+other color than red or blue. 
+
+f) If the user guessed the number correctly, respond with their number, post a congratulatory message, get a new random 
+number, and display a JButton to start a new game. Otherwise, to help the user close in on the correct number, post a message, 
+with their guessed number, whether they are "TOO HIGH" or "TOO LOW" from the correct number, and whether they are "WARMER" or 
+"COLDER" (this should match the background color). Also report the guess number of the next guess (e.g. "Enter guess number 
+nnn"). You might want to use a concatenated string in JLabel for these incorrect guess messages. 
+
+g) The process is repeated each game until the user guesses the correct number. Be sure that you erase obsolete status messages. 
+*/
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
