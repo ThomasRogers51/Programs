@@ -1,4 +1,9 @@
-﻿Imports System.Speech
+' In this case, you will create a Visual Basic solution that performs customer billing for the Cyberian Internet Café. 
+' The Cyberian Internet Café provides Internet access to its customers on an hourly basis.  One hour of Internet access 
+' costs $12.00.  You will create a solution with a splash screen,  which is an application that calculates the total 
+' cost for a customer, using the image file included in the downloaded files. 
+
+Imports System.Speech
 Imports System.Speech.Synthesis
 
 Public Class MainForm
